@@ -1,0 +1,43 @@
+.signin_container {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+.signin_container .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.signin_logo_father {
+  text-align: center;
+  margin-top: 10px;
+}
+.signin_logo {
+  height: 116px;
+  width: 150px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.signin_form {
+  color: white;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 8px;
+  width: 80vw;
+  margin: auto;
+}
+.signin_form h2{
+  text-align: center;
+}
+label,
+input::placeholder {
+  text-transform: capitalize;
+}
+ input {
+  border: none !important;
+}
+.signin_container button {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.85) !important;
+}
+.form-check-input:checked{
+    background-color: #FFCA2C !important;
+}

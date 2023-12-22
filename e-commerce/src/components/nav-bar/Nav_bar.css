@@ -1,0 +1,52 @@
+.navbar {
+  background-color: #443c68;
+  padding: 2px !important;
+  /* width: 100%; */
+}
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar_toglle {
+  color: transparent !important;
+}
+.navbar-toggler {
+  background-color: white !important;
+  margin: 0 !important;
+}
+.navbar_links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: white;
+  text-transform: capitalize;
+}
+
+.border_white {
+  border-radius: 10px;
+}
+.border_white:hover {
+  outline: 1px solid white;
+}
+.navbar_links a {
+  transition: 1s;
+  color: white !important;
+  padding: 7px !important;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0 7px;
+  letter-spacing: 0.5px;
+}
+.navbar_links a.active {
+  text-decoration: none !important;
+  outline: 1px solid white !important;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 1.1px;
+  /* ****because this not smooth  bold **** */
+}
+

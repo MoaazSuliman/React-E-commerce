@@ -1,0 +1,18 @@
+.order-form {
+  background: #443c68;
+  color: white;
+  border-radius: 1rem;
+  box-shadow: 0 0 0 1px black;
+  padding: 5px;
+}
+.order-form label {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 500;
+}
+.order-form button{
+    width: 120px;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+}

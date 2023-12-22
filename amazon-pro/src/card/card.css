@@ -1,0 +1,34 @@
+.main-card {
+  margin: 20px 1px;
+}
+.main-card .head h2{
+  text-transform: capitalize;
+}
+.main-card .head p {
+  background-color: #f3f3f3;
+  position: relative;
+  padding: 3px;
+}
+.main-card .head p::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background-color: #262626;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+}
+.main-card .content {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 991px) {
+  .main-card .content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .main-card .total-Price {
+    margin-top: 30px;
+  }
+}

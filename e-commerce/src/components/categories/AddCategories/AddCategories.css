@@ -1,0 +1,33 @@
+.add-categories form {
+  background: #443c68;
+  color: white;
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 1rem;
+  box-shadow: 0 0 0 1px black;
+}
+.add-categories form .column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.add-categories form label {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.add-categories form input {
+  padding: 7px;
+  border-radius: 10px;
+}
+.add-categories form .buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.add-categories form button {
+  width: 120px;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+}

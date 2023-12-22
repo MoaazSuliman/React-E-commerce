@@ -1,0 +1,46 @@
+.login {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login .login-logo {
+  width: 182px;
+  height: 90px;
+  object-fit: cover;
+  cursor: pointer;
+  margin: -100px 17px 3px 17px;
+}
+.login-form {
+  color: white;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 8px;
+  width: 70vw;
+}
+.login-form h2 {
+  text-align: center;
+}
+.login label,
+.login input::placeholder {
+  text-transform: capitalize;
+}
+.login input {
+  border: none !important;
+}
+.login .forgetPassword {
+  text-align: right;
+}
+.login .forgetPassword p {
+  padding: 3px 0;
+  text-transform: capitalize;
+}
+.login button {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.85) !important;
+}
+.login .form-check-input:checked {
+  background-color: #ffca2c;
+}

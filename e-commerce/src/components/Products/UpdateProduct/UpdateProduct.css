@@ -1,0 +1,45 @@
+.update-product .form {
+    background: #443c68;
+    color: white;
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 1rem;
+    box-shadow: 0 0 0 1px black;
+  }
+  .update-product .form .column {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .update-product .form label {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .update-product .form input {
+    padding: 7px;
+    border-radius: 10px;
+  }
+  .update-product .form select{
+    border: none;
+    outline: none;
+    padding: 7px;
+    border-radius: 10px;
+  }
+  .update-product .form .buttons{
+    display: flex;
+    justify-content: space-around;
+  }
+  .at .form button {
+    width: 20%;
+    min-width: 100px;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  .invalid-feedback{
+    text-transform: capitalize;
+    font-size:16px !important;
+  }

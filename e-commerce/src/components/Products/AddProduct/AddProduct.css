@@ -1,0 +1,73 @@
+.add-product .form {
+  background: #443c68;
+  color: white;
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 1rem;
+  box-shadow: 0 0 0 1px black;
+}
+.add-product .form .column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.add-product .form label {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.add-product .form input {
+  padding: 7px;
+  border-radius: 10px;
+}
+.add-product .form select {
+  border: none;
+  outline: none;
+  padding: 7px;
+  border-radius: 10px;
+}
+.add-product .form .buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.add-product .form button {
+  width: 20%;
+  min-width: 100px;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.invalid-feedback {
+  text-transform: capitalize;
+  font-size: 16px !important;
+}
+/* avatar product */
+.add-product .avatar-add-product .main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.add-product .avatar-add-product .main .card {
+  margin: 20px;
+}
+.add-product .avatar-add-product .main .buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.add-product .avatar-add-product .main .buttons .btn {
+  text-transform: capitalize;
+}
+.add-product .avatar-add-product .global-buttons {
+  position: fixed;
+  z-index: 1000;
+  bottom: 20px;
+  left: 20px;
+}
+.add-product .avatar-add-product .card-img,
+.add-product .avatar-add-product .card-img-top {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}

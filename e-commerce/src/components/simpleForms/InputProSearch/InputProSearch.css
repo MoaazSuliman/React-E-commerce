@@ -1,0 +1,15 @@
+.inputProSearch form {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .inputProSearch button {
+    width: 85px !important;
+    height: 40px !important;
+    border-radius: 8px !important;
+    background-color: #1976d2 !important;
+  }
+  
+  .inputProSearch .btnReverse .css-1d6wzja-MuiButton-startIcon > *:nth-of-type(1) {
+    transform: rotateY(180deg) !important;
+  }

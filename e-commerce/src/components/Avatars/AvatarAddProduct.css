@@ -1,0 +1,27 @@
+.avatar-add-product .main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.avatar-add-product .main .card {
+  margin: 20px;
+}
+.avatar-add-product .main .buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.avatar-add-product .main .buttons .btn {
+  text-transform: capitalize;
+}
+.avatar-add-product .global-buttons {
+  position: fixed;
+  z-index: 1000;
+  bottom: 20px;
+  left: 20px;
+}
+.avatar-add-product .card-img,
+.avatar-add-product .card-img-top {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}

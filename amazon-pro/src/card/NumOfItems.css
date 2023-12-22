@@ -1,0 +1,15 @@
+.num-of-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.num-of-items button {
+  border: none;
+  padding: 10px 12px;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 600;
+}
+.num-of-items h5 {
+  margin: 0px 10px;
+}

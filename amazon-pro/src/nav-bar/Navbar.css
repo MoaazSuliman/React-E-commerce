@@ -1,0 +1,21 @@
+.navbar {
+  background-color: #232f3e !important;
+  color: white;
+  padding: 2px !important;
+  width: 100%;
+}
+.navbar_toglle {
+  color: transparent !important;
+}
+.navbar-toggler {
+  background-color: white !important;
+  margin: 0 !important;
+}
+.navbar_links {
+  display: flex;
+  align-items: center;
+}
+.navbar_link {
+  margin-left: 10px;
+  text-transform: capitalize;
+}

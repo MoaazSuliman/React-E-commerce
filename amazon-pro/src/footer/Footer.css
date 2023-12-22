@@ -1,0 +1,29 @@
+/* start footer   */
+.footer {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  padding-top: 20px;
+}
+.footer .info h3 {
+  letter-spacing: 3px;
+}
+.footer .copyright > span {
+}
+.footer .copyright div span {
+}
+/* .footer .contact ul svg{
+    width:25px; 
+    height:25px;
+  } */
+/* .footer .contact ul .fa-facebook{
+    background-color:#1877f2;
+  }
+  .footer .contact ul .fa-twitter{
+    background-color:#1da1f2;
+  }
+  .footer .contact ul .fa-linkedin{
+    background-color:#0077b5;
+  }
+  .footer .contact ul .fa-youtube{
+    background-color:#ff0000;
+  } */
+/* end footer */

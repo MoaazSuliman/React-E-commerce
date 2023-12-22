@@ -1,0 +1,51 @@
+.products {
+  margin-top: -80px;
+}
+@media (max-width: 767px) {
+  .products {
+    margin-top: 10px;
+  }
+}
+.products .main_cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.products .main_cards .card {
+  margin: 20px 0;
+  box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.221) !important;
+}
+.products .main_cards .card .name_categoryName {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  line-break: anywhere;
+}
+.products .main_cards .card .name_categoryName .name {
+  margin-right: 10px;
+}
+.products .main_cards .card .numbers {
+  display: flex;
+  align-items: center;
+}
+.products .main_cards .card .numbers .price {
+  color: #b12704;
+  font-size: 20px;
+  margin-right: 6px;
+}
+.products .main_cards .card .numbers .discount span {
+  background-color: #7fda6a;
+}
+.products .main_cards .card .buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.products .main_cards .card .buttons .btn {
+  text-transform: capitalize;
+  margin: 5px 5px 0;
+}
+
+.products .main_cards .card .buttons .btn-dark{
+  color: white !important;
+  letter-spacing: 1px;
+}

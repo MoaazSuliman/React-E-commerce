@@ -1,0 +1,9 @@
+.product{
+    display: flex;
+    justify-content: center; 
+    margin: 20px 0;
+}
+.product_buttons{
+    display: flex;
+    justify-content: space-around;
+}
